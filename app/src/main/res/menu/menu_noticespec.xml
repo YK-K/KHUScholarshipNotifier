@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/openInBrowser"
+        android:icon="@drawable/ic_openinbrowser"
+        android:title="브라우저에서 열기"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/ic_download"
+        android:title="첨부파일 다운로드"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/goback"
+        android:icon="@drawable/ic_goback"
+        android:title="뒤로 돌아가기"
+        app:showAsAction="always"/>
+
+</menu>

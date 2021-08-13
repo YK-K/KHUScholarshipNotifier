@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n시작 날짜를 아래에서 선택해 주세요."
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <DatePicker
+        android:id="@+id/datepicker_startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종료 날짜를 아래에서 선택해 주세요."
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <DatePicker
+        android:id="@+id/datepicker_endDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+</LinearLayout>
